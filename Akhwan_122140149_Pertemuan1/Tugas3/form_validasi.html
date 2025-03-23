@@ -1,0 +1,82 @@
+// Form Validasi
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Validasi</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #BCD4DE;
+      color: #949BA0;
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      color: #F18805;
+    }
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      background: #A5CCD1;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      text-align: left;
+    }
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+    input[type="text"], input[type="email"], input[type="password"] {
+      width: calc(100% - 22px);
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #A0B9BF;
+      border-radius: 4px;
+    }
+    button {
+      background-color: #F18805;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #d17804;
+    }
+    .error {
+      color: red;
+      font-size: 0.9em;
+      margin-top: -10px;
+      margin-bottom: 10px;
+      display: none; /* Pesan error awalnya disembunyikan */
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Form Validasi</h1>
+    <form id="validationForm" onsubmit="return validateForm()">
+
+      <input type="text" id="name" name="name" placeholder="nama/username" />
+      <div class="error" id="nameError">Nama harus lebih dari 3 karakter</div>
+
+      <input type="email" id="email" name="email" placeholder="email" />
+      <div class="error" id="emailError">Email tidak valid</div>
+
+      <input type="password" id="password" name="password" placeholder="password" />
+      <div class="error" id="passwordError">Password minimal 8 karakter</div>
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+  <script src="form_validasi.js"></script>
+</body>
+</html>
