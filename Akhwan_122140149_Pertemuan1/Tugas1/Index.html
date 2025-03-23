@@ -1,1 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do List</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #BCD4DE;
+      color: #000000;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      color: #F18805;
+    }
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      background: #a5ccd1;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    input[type="text"], input[type="date"], select {
+      width: calc(100% - 22px);
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #A0B9BF;
+      border-radius: 4px;
+    }
+    button {
+      background-color: #F18805;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #d17804;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    li {
+      background: #64b4c9;
+      margin-bottom: 10px;
+      padding: 10px;
+      border-radius: 4px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    li.completed {
+      text-decoration: line-through;
+      color: #1f5c88;
+    }
+    .section {
+      margin-bottom: 20px;
+    }
+    .section h2 {
+      color: #F18805;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>To-Do List</h1>
+  <div class="container">
+    <div class="section">
+      <h2>Add New Task</h2>
+      <input type="text" id="newTask" placeholder="Add a new task..." />
+      <input type="date" id="taskDate" />
+      <select id="taskStatus">
+        <option value="not-started">Belum Dikerjakan</option>
+        <option value="in-progress">Sedang Dikerjakan</option>
+        <option value="completed">Sudah Selesai</option>
+      </select>
+      <button onclick="addTask()">Add Task</button>
+    </div>
 
+    <div class="section">
+      <h2>Belum Dikerjakan</h2>
+      <ul id="notStartedTasks"></ul>
+    </div>
+
+    <div class="section">
+      <h2>Sedang Dikerjakan</h2>
+      <ul id="inProgressTasks"></ul>
+    </div>
+
+    <div class="section">
+      <h2>Sudah Selesai</h2>
+      <ul id="completedTasks"></ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
