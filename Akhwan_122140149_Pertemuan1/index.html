@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dashboard Tugas Kuliah</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Dashboard Pencatat Tugas Kuliah</h1>
+
+    <div class="input-group">
+      <input type="text" id="taskName" placeholder="Nama Tugas" />
+      <input type="date" id="taskDeadline" />
+      <button id="addTaskBtn">Tambah Tugas</button>
+    </div>
+
+    <p class="legend">🔲 Belum Dikerjakan | 🔴 Sedang Dikerjakan | ✅ Selesai</p>
+
+    <div class="status-filter">
+      <label for="statusFilter">Filter Status:</label>
+      <select id="statusFilter">
+        <option value="all">Semua</option>
+        <option value="not-started">Belum Dikerjakan</option>
+        <option value="in-progress">Sedang Dikerjakan</option>
+        <option value="completed">Selesai</option>
+      </select>
+    </div>
+
+    <div class="search-box">
+      <label for="searchInput">Cari Tugas:</label>
+      <input type="text" id="searchInput" placeholder="Ketik untuk mencari..." />
+    </div>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Nama Tugas</th>
+          <th>Deadline</th>
+          <th>Status</th>
+          <th>Aksi</th>
+        </tr>
+      </thead>
+      <tbody id="taskTableBody"></tbody>
+    </table>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
