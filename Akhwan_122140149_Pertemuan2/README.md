@@ -13,6 +13,7 @@ Fitur Utama
   - 🔲 Belum Dikerjakan
   - 🔴 Sedang Dikerjakan
   - ✅ Selesai
+  
   Ini membantu pengguna mengetahui progres dari masing-masing tugas.
 - **Pencarian Tugas**:
   Pengguna bisa mencari tugas berdasarkan nama tugas menggunakan kotak pencarian. Sangat berguna jika daftar tugas sudah banyak.
