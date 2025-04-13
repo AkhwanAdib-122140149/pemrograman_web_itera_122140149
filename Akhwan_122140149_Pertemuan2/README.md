@@ -30,7 +30,7 @@ Daftar fitur ES6+ yang diimplementasikan
 - Class : Digunakan untuk membuat objek `Task`
 - Arrow Function : Digunakan untuk fungsi singkat
 
-===
+---
 
 Screenshot Aplikasi
 - Dashboard
