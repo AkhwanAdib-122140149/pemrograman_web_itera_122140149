@@ -34,10 +34,10 @@ Daftar fitur ES6+ yang diimplementasikan
 
 Screenshot Aplikasi
 - Dashboard
-![Dashboard](/Akhwan_122140149_pertemuan2/ss/dashboard.png)
+![Dashboard](/Akhwan_122140149_Pertemuan2/ss/dashboard.png)
 
 - Filter
-![Filter](/Akhwan_122140149_pertemuan2/ss/filter.png)
+![Filter](/Akhwan_122140149_Pertemuan2/ss/filter.png)
 
 - Pencarian
-![Pencarian](/Akhwan_122140149_pertemuan2/ss/pencarian.png)
+![Pencarian](/Akhwan_122140149_Pertemuan2/ss/pencarian.png)
