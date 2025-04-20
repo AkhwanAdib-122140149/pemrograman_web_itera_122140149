@@ -1,0 +1,161 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f7f9fb;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 700px;
+  margin: 2rem auto;
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  background: #0cb4ce;
+  padding: 1rem;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+.form input,
+.form select,
+.form button {
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.form button {
+  background-color: #007a8c;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background-color: #005f6b;
+}
+
+.book-lists {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.book-card {
+  text-align: left;
+  background: #e5fcfc;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  width: 92%;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.05);
+}
+
+.book-card button {
+  margin-right: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  border-radius: 6px;
+  cursor: pointer;
+  border: none;
+}
+
+.book-card .delete-btn {
+  background: #e74c3c;
+  color: white;
+}
+
+.book-card button:hover {
+  opacity: 0.9;
+}
+
+.book-card .edit-btn {
+  background: #3498db;
+  color: white;
+}
+
+.form button[type="button"] {
+  background: #95a5a6;
+  margin-top: 0.5rem;
+}
+
+.section {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  margin-bottom: 2rem;
+}
+
+.input-section {
+  margin-bottom: 2rem;
+}
+
+.list-section {
+  background: #f8f9fa;
+}
+
+.container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.filter {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.filter input,
+.filter select {
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  flex: 1;
+}
+
+@media (max-width: 768px) {
+  .book-lists {
+    flex-direction: column;
+  }
+}
+
+.book-section {
+  flex: 1;
+  min-width: 300px;
+  max-width: 100%;
+}
+
+.book-section h3 {
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+}
+
+.book-card h4 {
+  margin-bottom: 0.5rem;
+}
+
+.book-card p {
+  margin-bottom: 1rem;
+}
