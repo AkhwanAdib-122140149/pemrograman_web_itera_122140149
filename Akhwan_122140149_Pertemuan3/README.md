@@ -1,5 +1,6 @@
 # Read Monitor
 ##-Akhwan Adib Al Hakim - RB
+---
 Read Monitor adalah aplikasi yang dirancang untuk membantu pengguna dalam mencatat dan mengelola koleksi buku yang sedang dibaca maupun yang telah selesai dibaca.
 ---
 
