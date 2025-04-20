@@ -32,7 +32,7 @@ Read Monitor adalah aplikasi yang dirancang untuk membantu pengguna dalam mencat
 
 ## Screenshot Antarmuka
 
-![screenshot](ss/Screenshot%20(116).jpg)
+![screenshot](ss/Screenshot%20(116).png)
 
 ---
 
