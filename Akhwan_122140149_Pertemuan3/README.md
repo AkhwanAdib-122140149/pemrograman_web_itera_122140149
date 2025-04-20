@@ -1,3 +1,59 @@
+# Read Monitor
+-Akhwan Adib Al Hakim - RB
+Read Monitor adalah aplikasi yang dirancang untuk membantu pengguna dalam mencatat dan mengelola koleksi buku yang sedang dibaca maupun yang telah selesai dibaca.
+---
+
+## Fitur Utama
+
+- Tambah buku baru (judul, penulis, dan status: **Sedang Dibaca / Sudah Selesai**)
+- Edit dan hapus data buku
+- Filter buku berdasarkan status
+- Pencarian buku berdasarkan judul
+- Penyimpanan data dengan `localStorage` agar tetap tersimpan saat refresh
+- Navigasi antar halaman menggunakan `React Router`
+- Statistik jumlah buku berdasarkan status
+
+---
+
+## Teknologi & Konsep
+
+- React JS dengan pendekatan Functional Components dan Hooks
+- Pengelolaan data menggunakan `useState` dan `useEffect`
+- **Context API** untuk pengelolaan state global
+- Routing antar halaman menggunakan **React Router** 
+- Custom Hooks: `useLocalStorage`, `useBookStats`
+- **React Testing Library** untuk unit testing
+- Error handling pada form input (validasi input kosong)
+- Komponen yang dirancang agar dapat digunakan kembali (reusable)
+
+
+---
+
+## Screenshot Antarmuka
+
+![screenshot](ss/screenshot(116).jpg)
+
+---
+
+## Cara Menjalankan
+
+1. Clone repository ini:
+
+```bash
+git clone https://github.com/Pyxsmob/pemrograman_web_itera_122140149.git
+cd Akhwan_122140149_Pertemuan3
+```
+2. Install / RUN NPM
+
+```bash
+npm install
+```
+
+Jalankan Aplikasi
+```bash
+npm start
+```
+
 <<<<<<< HEAD
 # Getting Started with Create React App
 
