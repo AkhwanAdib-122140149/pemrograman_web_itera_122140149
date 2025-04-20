@@ -1,6 +1,6 @@
 # Read Monitor
 ##-Akhwan Adib Al Hakim - RB
-### [Link](https://book-monitor.vercel.app/)
+### [Link Website](https://book-monitor.vercel.app/)
 ---
 Read Monitor adalah aplikasi yang dirancang untuk membantu pengguna dalam mencatat dan mengelola koleksi buku yang sedang dibaca maupun yang telah selesai dibaca.
 ---
