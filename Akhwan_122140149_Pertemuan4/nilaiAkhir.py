@@ -29,8 +29,8 @@ for mahasiswa in nama_mahasiswa:
         "grade": grade
     })
 
-Hasil = sorted(NilaiAkhir, key=lambda x: x["nilai_akhir"], reverse=False)
-# Jika ingin menampilkan data dengan urutan nilai akhir dari yang rendah ke tertinggi, hapus reverse=True
+Hasil = sorted(NilaiAkhir, key=lambda x: x["nilai_akhir"], reverse=True)
+# Jika ingin menampilkan data dengan urutan nilai akhir dari yang rendah ke tertinggi, gantI menjadi reverse=False atau dihapus seperti berikut:
 # Hasil = sorted(NilaiAkhir, key=lambda x: x["nilai_akhir"])
 
 # Tampilkan data mahasiswa dalam format tabel
