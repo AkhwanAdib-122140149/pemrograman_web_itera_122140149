@@ -49,7 +49,7 @@ Akses API di: [http://localhost:6543/api/matakuliah](http://localhost:6543/api/m
 
 Screenshot:
 
-![Local Host Akhir](screenshot/localhost%20test.png)
+![Local Host Awal](screenshot/localhost%20test.png)
 
 ---
 
