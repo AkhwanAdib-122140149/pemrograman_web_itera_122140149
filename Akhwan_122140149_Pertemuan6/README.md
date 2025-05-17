@@ -44,6 +44,13 @@ pserve development.ini --reload
 Akses API di: [http://localhost:6543/api/matakuliah](http://localhost:6543/api/matakuliah)
 
 ---
+## Testing API via localhost
+
+Screenshot:
+
+![GET](screenshot/localhost%20test.png)
+
+---
 
 ## 🔍 Testing API via Postman
 
