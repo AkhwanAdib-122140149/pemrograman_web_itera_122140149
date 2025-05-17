@@ -45,14 +45,6 @@ Akses API di: [http://localhost:6543/api/matakuliah](http://localhost:6543/api/m
 
 ---
 
-### 🔹 local host akhir
-
-Screenshot:
-
-![Local Host Awal](screenshot/localhost%20test.png)
-
----
-
 ## 🔍 Testing API via Postman
 
 ### 🔹 GET semua matakuliah
@@ -92,13 +84,5 @@ Screenshot:
 Screenshot:
 
 ![DELETE](screenshot/delete.png)
-
----
-
-### 🔹 local host akhir
-
-Screenshot:
-
-![Local Host Akhir](screenshot/local%20test%20akhir.png)
 
 ---
