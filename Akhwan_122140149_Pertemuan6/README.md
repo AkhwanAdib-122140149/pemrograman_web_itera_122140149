@@ -49,7 +49,7 @@ Akses API di: [http://localhost:6543/api/matakuliah](http://localhost:6543/api/m
 
 Screenshot:
 
-![Local Host Akhir](localhost%20test.png)
+![Local Host Akhir](screenshot/localhost%20test.png)
 
 ---
 
@@ -59,7 +59,7 @@ Screenshot:
 
 Screenshot:
 
-![GET](get%20all.png)
+![GET](screenshot/get%20all.png)
 
 ---
 
@@ -67,7 +67,7 @@ Screenshot:
 
 Screenshot:
 
-![POST](post.png)
+![POST](screenshot/post.png)
 
 ---
 
@@ -75,7 +75,7 @@ Screenshot:
 
 📸 Screenshot:
 
-![GET by ID](get%20id%202.png)
+![GET by ID](screenshot/get%20id%202.png)
 
 ---
 
@@ -83,7 +83,7 @@ Screenshot:
 
 Screenshot:
 
-![PUT](put%20id%202.png)
+![PUT](screenshot/put%20id%202.png)
 
 ---
 
@@ -91,7 +91,7 @@ Screenshot:
 
 Screenshot:
 
-![DELETE](delete.png)
+![DELETE](screenshot/delete.png)
 
 ---
 
@@ -99,6 +99,6 @@ Screenshot:
 
 Screenshot:
 
-![Local Host Akhir](local%20test%20akhir.png)
+![Local Host Akhir](screenshot/local%20test%20akhir.png)
 
 ---
